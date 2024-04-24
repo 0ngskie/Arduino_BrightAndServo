@@ -34,6 +34,10 @@ namespace RoboticsTest_24Apr24_
             serialPort1.Write(applyCommand);
         }
 
+        private void angleResetButton_Click(object sender, EventArgs e)
+        {
+            serialPort1.Write("0");
+        }
 
         private void brightnessTracker_Scroll(object sender, EventArgs e)
         {
@@ -62,5 +66,7 @@ namespace RoboticsTest_24Apr24_
             }
             serialPort1.Write(yellowBrightnessValue);
         }
+
+        
     }
 }   

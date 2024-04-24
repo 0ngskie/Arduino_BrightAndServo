@@ -36,6 +36,7 @@
             this.brightnessTracker = new System.Windows.Forms.TrackBar();
             this.yellowConfirmButton = new System.Windows.Forms.Button();
             this.yellowBrightnessTracker = new System.Windows.Forms.TrackBar();
+            this.angleResetButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.brightnessTracker)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yellowBrightnessTracker)).BeginInit();
             this.SuspendLayout();
@@ -103,11 +104,22 @@
             this.yellowBrightnessTracker.TickFrequency = 10;
             this.yellowBrightnessTracker.Scroll += new System.EventHandler(this.yellowBrightnessTracker_Scroll);
             // 
+            // angleResetButton
+            // 
+            this.angleResetButton.Location = new System.Drawing.Point(83, 75);
+            this.angleResetButton.Name = "angleResetButton";
+            this.angleResetButton.Size = new System.Drawing.Size(95, 54);
+            this.angleResetButton.TabIndex = 9;
+            this.angleResetButton.Text = "Reset";
+            this.angleResetButton.UseVisualStyleBackColor = true;
+            this.angleResetButton.Click += new System.EventHandler(this.angleResetButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.angleResetButton);
             this.Controls.Add(this.yellowBrightnessTracker);
             this.Controls.Add(this.yellowConfirmButton);
             this.Controls.Add(this.redConfirmButton);
@@ -131,6 +143,7 @@
         private System.Windows.Forms.TrackBar brightnessTracker;
         private System.Windows.Forms.Button yellowConfirmButton;
         private System.Windows.Forms.TrackBar yellowBrightnessTracker;
+        private System.Windows.Forms.Button angleResetButton;
     }
 }
 

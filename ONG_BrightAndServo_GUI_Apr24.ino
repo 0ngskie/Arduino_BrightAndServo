@@ -35,7 +35,11 @@ void loop() {
       servoVal = x.toInt();
       myServo.write(servoVal);
       break;
-
+      
+      case '0':
+      myServo.write(0);
+      break;
+      
       // Red LED Brightness Controller
       case 'R':
       x = Data.substring(1);
