@@ -8,7 +8,8 @@ String Data;
 char d1;
 String x;
 int servoVal;
-int ledVal;
+int redLedVal;
+int yellowLedVal;
 
 void setup() {
   // put your setup code here, to run once:
@@ -35,12 +36,18 @@ void loop() {
       myServo.write(servoVal);
       break;
 
-      // LED Brightness Controller
-      case 'B':
+      // Red LED Brightness Controller
+      case 'R':
       x = Data.substring(1);
-      ledVal = x.toInt();
-      analogWrite(led01, ledVal);
-      analogWrite(led02, ledVal);
+      redLedVal = x.toInt();
+      analogWrite(led01, redLedVal);
+      break;
+
+      // Yellow LED Brightness Controller
+      case 'Y':
+      x = Data.substring(1);
+      yellowLedVal = x.toInt();
+      analogWrite(led02, yellowLedVal);
       break;
     }
   }

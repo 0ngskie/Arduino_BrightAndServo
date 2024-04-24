@@ -12,7 +12,8 @@ namespace RoboticsTest_24Apr24_
 {
     public partial class Form1 : Form
     {
-        private String brightnessValue;
+        private String redBrightnessValue;
+        private String yellowBrightnessValue;
         
 
         public Form1()
@@ -36,16 +37,30 @@ namespace RoboticsTest_24Apr24_
 
         private void brightnessTracker_Scroll(object sender, EventArgs e)
         {
-            brightnessValue = "R" + brightnessTracker.Value;
+            redBrightnessValue = "R" + brightnessTracker.Value;
         }
 
         private void ledConfirmButton_Click(object sender, EventArgs e)
         {
 
-            if (string.IsNullOrEmpty(brightnessValue)) {
-                brightnessValue = "B0";
+            if (string.IsNullOrEmpty(redBrightnessValue)) {
+                redBrightnessValue = "R0";
             }
-                serialPort1.Write(brightnessValue);
+                serialPort1.Write(redBrightnessValue);
+        }
+
+        private void yellowBrightnessTracker_Scroll(object sender, EventArgs e)
+        {
+            yellowBrightnessValue = "Y" + yellowBrightnessTracker.Value;
+        }
+
+        private void yellowConfirmButton_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(yellowBrightnessValue))
+            {
+                yellowBrightnessValue = "Y0";
+            }
+            serialPort1.Write(yellowBrightnessValue);
         }
     }
 }   
