@@ -1,0 +1,10 @@
+D:\VSFile\RoboticsTest(24Apr24)\RoboticsTest(24Apr24)\bin\Debug\RoboticsTest(24Apr24).exe.config
+D:\VSFile\RoboticsTest(24Apr24)\RoboticsTest(24Apr24)\bin\Debug\RoboticsTest(24Apr24).exe
+D:\VSFile\RoboticsTest(24Apr24)\RoboticsTest(24Apr24)\bin\Debug\RoboticsTest(24Apr24).pdb
+D:\VSFile\RoboticsTest(24Apr24)\RoboticsTest(24Apr24)\obj\Debug\RoboticsTest(24Apr24).csproj.AssemblyReference.cache
+D:\VSFile\RoboticsTest(24Apr24)\RoboticsTest(24Apr24)\obj\Debug\RoboticsTest_24Apr24_.Form1.resources
+D:\VSFile\RoboticsTest(24Apr24)\RoboticsTest(24Apr24)\obj\Debug\RoboticsTest_24Apr24_.Properties.Resources.resources
+D:\VSFile\RoboticsTest(24Apr24)\RoboticsTest(24Apr24)\obj\Debug\RoboticsTest(24Apr24).csproj.GenerateResource.cache
+D:\VSFile\RoboticsTest(24Apr24)\RoboticsTest(24Apr24)\obj\Debug\RoboticsTest(24Apr24).csproj.CoreCompileInputs.cache
+D:\VSFile\RoboticsTest(24Apr24)\RoboticsTest(24Apr24)\obj\Debug\RoboticsTest(24Apr24).exe
+D:\VSFile\RoboticsTest(24Apr24)\RoboticsTest(24Apr24)\obj\Debug\RoboticsTest(24Apr24).pdb
